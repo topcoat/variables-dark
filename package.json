@@ -1,0 +1,24 @@
+{
+  "name": "topcoat-variables-dark",
+  "version": "0.0.0",
+  "description": "Dark variables for theme.",
+  "main": "index.html",
+  "style": "src/variables-dark.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/variables-dark.git"
+  },
+  "keywords": [
+    "topcoat",
+    "variables",
+    "dark"
+  ],
+  "author": "@dam Kristofer Joseph",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/topcoat/variables-dark/issues"
+  }
+}
