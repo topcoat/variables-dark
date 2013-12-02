@@ -5,6 +5,9 @@
   var-background--body : #4B4D4E;
   var-highlight-color  : #fff;
   var-shadow-color     : #000;
+  var-color--cta       : #fff;
+  var-notification-color: #ec514e;
+  var-background-color--cta: #288edf;
 
   /* ---------- darken ---------- */
   var-dark    : 5;
@@ -27,6 +30,7 @@
   /* ---------- shadows ---------- */
   var-box-shadow--highlight : 0 -1px rgba( 0, 0, 0, 0.69 );
 
+  var-border-color : darken(var(background-color), var(darkest));
   var-background-color--down : darken(var(background--body), var(dark));
   var-background-color--hover : lighten(var(background--body), var(lighter));
   var-border : var(border-thickness) solid var(border-color);
@@ -34,8 +38,27 @@
   var-box-shadow--down : inset 0 var(border-thickness) rgba(var(shadow-color), var(alpha--low));
   var-text-shadow : var(box-shadow--highlight);
   var-background-color--input : darken(var(background-color), var(darker));
-  var-border-color : darken(var(background-color), var(darkest));
 
+  /* Call To Action */
+  var-background-color-light--cta: lighten(var(background-color--cta), 42.5);
+  var-border-color--cta: darken(var(background-color--cta), 23);
+  var-border--cta: 1px solid var(border-color--cta);
+  var-background-color--cta--down: darken(var(background-color--cta), 6.5);
+  var-background-color--cta--hover: lighten(var(background-color--cta), 8);
+  var-box-shadow--cta: inset 0 1px rgba(var(color--cta), 0.36);
+  var-box-shadow--cta--down: inset 0 1px rgba(var(shadow-color), 0.12);
+
+  var-text-shadow--cta: 0 -1px rgba(var(shadow-color), 0.36);
+
+  var-border--focus: 1px solid #0036FF;
+  var-box-shadow--focus: 0 0 0 2px #6fb5f1;
+  var-border--invalid: 1px solid var(notification-color);
+
+  var-notification-bg-color: var(notification-color);
+
+  /* Text Input */
+  var-placeholder-color--input: #c6c8c8;
+  var-color--focus: #000;
   /* Icons */
   var-menu-stack-icon : url("../img/hamburger_light.svg");
 
