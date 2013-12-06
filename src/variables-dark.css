@@ -49,7 +49,7 @@
   var-box-shadow--focus: 0 0 0 2px hsla(208, 82%, 69%, 1);
   var-border--invalid: 1px solid var(notification-color);
 
-  var-notification-bg-color: var(notification-color);
+  var-bg-color--notification: var(notification-color);
 
   var-color--placeholder: hsla(180, 2%, 78%, 1);
   var-color--focus: hsla(0, 0%, 0%, 1);
