@@ -96,7 +96,7 @@
 
   var-color--tab-bar--active : var(background-color--cta);
   var-background-color--tab-bar--active : var(background-color--down);
-  var-box-shadow--tab-bar--active : inset 0 0 var(border-thickness)
+  var-box-shadow--tab-bar--active : inset 0 0 var(border-thickness);
 
   var-color--switch__label--left : var(background-color--cta);
   var-background-color--switch__label--left : var(background-color--down);
