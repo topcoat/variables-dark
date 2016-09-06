@@ -1,0 +1,22 @@
+:root {
+  color: hsla(180, 2%, 78%, 1);
+  background: hsla(180, 1%, 35%, 1);
+  highlight-color: hsla(0, 100%, 100%, 1);
+  shadow-color: hsla(0, 0%, 0%, 1);
+  notification-color: hsla(1, 81%, 62%, 1);
+  border-thickness: 1px;
+  border-color: hsla(180, 1%, 20%, 1);
+  border: 1px solid hsla(180, 1%, 20%, 1);
+  box-shadow: inset 0 1px hsla(0, 0%, 45%, 1);
+  text-shadow: 0 -1px hsla(0, 0%, 0%, .69);
+  menu-stack-icon: url("../img/hamburger_light.svg");
+  modal-bg-color: hsla(180, 1%, 35%, 1);
+  overlay__header-border: 1px solid hsla(180, 1%, 20%, 1);
+  bar-bg-color: hsla(210, 2%, 25%, 1);
+  progress-bg-color: hsla(180, 1%, 35%, 1);
+  range-background: hsla(210, 2%, 25%, 1);
+  range__slider-border: 1px solid hsla(180, 1%, 20%, 1);
+  range__slider-background: hsla(180, 1%, 35%, 1);
+  range__slider-bg-size: 7px 18px;
+  range__slider-box-shadow: inset 0 1px 0 hsla(0, 0%, 0%, .05);
+}

@@ -1,105 +1,86 @@
-/**
-*
-* Copyright 2012 Adobe Systems Inc.;
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-
 :root {
-  var-color            : hsla(180, 2%, 78%, 1);
-  var-background-color : hsla(180, 1%, 35%, 1);
-  var-background--body : hsla(200, 2%, 30%, 1);
-  var-highlight-color  : hsla(0, 100%, 100%, 1);
-  var-shadow-color     : hsla(0, 0%, 0%, 1);
-  var-color--cta       : hsla(0, 100%, 100%, 1);
-  var-notification-color: hsla(1, 81%, 62%, 1);
-  var-background-color--cta: hsla(207, 74%, 52%, 1);
+  --color            : hsla(180, 2%, 78%, 1);
+  --background-color : hsla(180, 1%, 35%, 1);
+  --background--body : hsla(200, 2%, 30%, 1);
+  --highlight-color  : hsla(0, 100%, 100%, 1);
+  --shadow-color     : hsla(0, 0%, 0%, 1);
+  --color--cta       : hsla(0, 100%, 100%, 1);
+  --notification-color: hsla(1, 81%, 62%, 1);
+  --background-color--cta: hsla(207, 74%, 52%, 1);
 
-  var-border-thickness : 1px;
+  --border-thickness : 1px;
 
-  var-box-shadow--highlight : 0 -1px hsla(0, 0%, 0%, 0.69);
-  var-border-color : hsla(180, 1%, 20%, 1);
-  var-background-color--down : hsla(210, 2%, 25%, 1);
-  var-background-color--hover : hsla(200, 2%, 39%, 1);
-  var-border : var(border-thickness) solid var(border-color);
-  var-box-shadow : inset 0 var(border-thickness) hsla(0, 0%, 45%, 1);
-  var-box-shadow--down : inset 0 var(border-thickness) hsla(0, 0%, 0%, 0.05);
-  var-text-shadow : var(box-shadow--highlight);
-  var-background-color--input : hsla(180, 1%, 27%, 1);
-  var-border--cta: 1px solid hsla(207, 74%, 29%, 1);
-  var-background-color--cta--down: hsla(206, 74%, 45%, 1);
-  var-background-color--cta--hover: hsla(206, 74%, 60%, 1);
-  var-box-shadow--cta: inset 0 1px hsla(0, 100%, 100%, 0.36);
-  var-box-shadow--cta--down: inset 0 1px hsla(0, 0%, 0%, 0.12);
+  --box-shadow--highlight : 0 -1px hsla(0, 0%, 0%, 0.69);
+  --border-color : hsla(180, 1%, 20%, 1);
+  --background-color--down : hsla(210, 2%, 25%, 1);
+  --background-color--hover : hsla(200, 2%, 39%, 1);
+  --border : var(--border-thickness) solid var(--border-color);
+  --box-shadow : inset 0 var(--border-thickness) hsla(0, 0%, 45%, 1);
+  --box-shadow--down : inset 0 var(--border-thickness) hsla(0, 0%, 0%, 0.05);
+  --text-shadow : var(--box-shadow--highlight);
+  --background-color--input : hsla(180, 1%, 27%, 1);
+  --border--cta: 1px solid hsla(207, 74%, 29%, 1);
+  --background-color--cta--down: hsla(206, 74%, 45%, 1);
+  --background-color--cta--hover: hsla(206, 74%, 60%, 1);
+  --box-shadow--cta: inset 0 1px hsla(0, 100%, 100%, 0.36);
+  --box-shadow--cta--down: inset 0 1px hsla(0, 0%, 0%, 0.12);
 
-  var-text-shadow--cta: 0 -1px hsla(0, 0%, 0%, 0.36);
+  --text-shadow--cta: 0 -1px hsla(0, 0%, 0%, 0.36);
 
-  var-border--focus: 1px solid hsla(227, 100%, 50%, 1);
-  var-box-shadow--focus: 0 0 0 2px hsla(208, 82%, 69%, 1);
-  var-border--invalid: 1px solid var(notification-color);
+  --border--focus: 1px solid hsla(227, 100%, 50%, 1);
+  --box-shadow--focus: 0 0 0 2px hsla(208, 82%, 69%, 1);
+  --border--invalid: 1px solid var(--notification-color);
 
-  var-bg-color--notification: var(notification-color);
+  --bg-color--notification: var(--notification-color);
 
-  var-color--placeholder: hsla(180, 2%, 78%, 1);
-  var-color--focus: hsla(0, 0%, 0%, 1);
-  var-menu-stack-icon : url("../img/hamburger_light.svg");
+  --color--placeholder: hsla(180, 2%, 78%, 1);
+  --color--focus: hsla(0, 0%, 0%, 1);
+  --menu-stack-icon : url("../img/hamburger_light.svg");
 
-  var-color--navigation-bar : var(highlight-color);
-  var-box-shadow--navigation-bar : inset 0 -1px var(border-color), 0 var(border-thickness) hsla(180, 1%, 27%, 1);
+  --color--navigation-bar : var(--highlight-color);
+  --box-shadow--navigation-bar : inset 0 -1px var(--border-color), 0 var(--border-thickness) hsla(180, 1%, 27%, 1);
 
-  var-color--focus : var(highlight-color);
-  var-background-color--text-input : var(background-color--input);
-  var-background-color--text-input--focus : var(background-color);
-  var-box-shadow--text-input : inset 0 var(border-thickness) 0 hsla(0, 0%, 0%, 0.23);
+  --color--focus : var(--highlight-color);
+  --background-color--text-input : var(--background-color--input);
+  --background-color--text-input--focus : var(--background-color);
+  --box-shadow--text-input : inset 0 var(--border-thickness) 0 hsla(0, 0%, 0%, 0.23);
 
-  var-background-color--list : hsla(180, 1%, 27%, 1);
-  var-border-top--list-container : var(border);
-  var-border-top--list : var(border);
-  var-border-bottom--list : var(border-thickness) solid hsla(180, 1%, 38%, 1);
-  var-border-top--list-item--first : var(border-thickness) solid hsla(0, 0%, 0%, 0.05);
-  var-border-top--list-item : var(border-bottom--list);
-  var-border-bottom--list-item : var(border);
-  var-color--list-header : var(color);
-  var-text-shadow--list-header : 0 var(border-thickness) 0 hsla(0, 100%, 100%, 0.1);
-  var-border-top--list-header : var(border-thickness) solid hsla(0, 100%, 100%, 0.1);
-  var-border-bottom--list-header : var(border-thickness) solid hsla(0, 100%, 100%, 0.05);
-  var-background-color--list-header : var(background-color--down);
+  --background-color--list : hsla(180, 1%, 27%, 1);
+  --border-top--list-container : var(--border);
+  --border-top--list : var(--border);
+  --border-bottom--list : var(--border-thickness) solid hsla(180, 1%, 38%, 1);
+  --border-top--list-item--first : var(--border-thickness) solid hsla(0, 0%, 0%, 0.05);
+  --border-top--list-item : var(--border-bottom--list);
+  --border-bottom--list-item : var(--border);
+  --color--list-header : var(--color);
+  --text-shadow--list-header : 0 var(--border-thickness) 0 hsla(0, 100%, 100%, 0.1);
+  --border-top--list-header : var(--border-thickness) solid hsla(0, 100%, 100%, 0.1);
+  --border-bottom--list-header : var(--border-thickness) solid hsla(0, 100%, 100%, 0.05);
+  --background-color--list-header : var(--background-color--down);
 
-  var-modal-bg-color : var(background-color);
-  var-overlay__header-border : var(border);
+  --modal-bg-color : var(--background-color);
+  --overlay__header-border : var(--border);
 
-  var-bar-bg-color : var(background-color--down);
-  var-progress-bg-color : var(background-color);
+  --bar-bg-color : var(--background-color--down);
+  --progress-bg-color : var(--background-color);
 
-  var-border--checkmark : 7px solid var(color);
+  --border--checkmark : 7px solid var(--color);
 
-  var-range-background : var(background-color--down);
-  var-range__slider-border : var(border);
-  var-range__slider-background : var(background-color);
-  var-range__slider-bg-size : 7px 18px;
-  var-range__slider-box-shadow : inset 0 var(border-thickness) 0 hsla(0, 0%, 0%, 0.05);
+  --range-background : var(--background-color--down);
+  --range__slider-border : var(--border);
+  --range__slider-background : var(--background-color);
+  --range__slider-bg-size : 7px 18px;
+  --range__slider-box-shadow : inset 0 var(--border-thickness) 0 hsla(0, 0%, 0%, 0.05);
 
-  var-border--radio-button : var(border-thickness) solid hsla(0, 0%, 0%, 0.05);
-  var-background--radio-button : var(color);
-  var-box-shadow--radio-button : 0 var(border-thickness) hsla(0, 100%, 100%, 0.1);
+  --border--radio-button : var(--border-thickness) solid hsla(0, 0%, 0%, 0.05);
+  --background--radio-button : var(--color);
+  --box-shadow--radio-button : 0 var(--border-thickness) hsla(0, 100%, 100%, 0.1);
 
-  var-color--tab-bar--active : var(background-color--cta);
-  var-background-color--tab-bar--active : var(background-color--down);
-  var-box-shadow--tab-bar--active : inset 0 0 var(border-thickness);
+  --color--tab-bar--active : var(--background-color--cta);
+  --background-color--tab-bar--active : var(--background-color--down);
+  --box-shadow--tab-bar--active : inset 0 0 var(--border-thickness);
 
-  var-color--switch__label--left : var(background-color--cta);
-  var-background-color--switch__label--left : var(background-color--down);
-  var-background-color--switch__label--right : var(background-color--down);
+  --color--switch__label--left : var(--background-color--cta);
+  --background-color--switch__label--left : var(--background-color--down);
+  --background-color--switch__label--right : var(--background-color--down);
 }
-

@@ -1,0 +1,86 @@
+:root {
+  color: var(--color);
+  background: var(--background-color);
+  background--body: var(--background--body);
+  highlight-color: var(--highlight-color);
+  shadow-color: var(--shadow-color);
+  color--cta: var(--color--cta);
+  notification-color: var(--notification-color);
+  background-color--cta: var(--background-color--cta);
+
+  border-thickness: var(--border-thickness);
+
+  box-shadow--highlight: var(--box-shadow--highlight);
+  border-color: var(--border-color);
+  background-color--down: var(--background-color--down);
+  background-color--hover: var(--background-color--hover);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  box-shadow--down: var(--box-shadow--down);
+  text-shadow: var(--text-shadow);
+  background-color--input: var(--background-color--input);
+  border--cta: var(--border--cta);
+  background-color--cta--down: var(--background-color--cta--down);
+  background-color--cta--hover: var(--background-color--cta--hover);
+  box-shadow--cta: var(--box-shadow--cta);
+  box-shadow--cta--down: var(--box-shadow--cta--down);
+
+  text-shadow--cta: var(--text-shadow--cta);
+
+  border--focus: var(--border--focus);
+  box-shadow--focus: var(--box-shadow--focus);
+  border--invalid: var(--border--invalid);
+
+  bg-color--notification: var(--bg-color--notification);
+
+  color--placeholder: var(--color--placeholder);
+  color--focus: var(--color--focus);
+  menu-stack-icon: var(--menu-stack-icon);
+
+  color--navigation-bar: var(--color--navigation-bar);
+  box-shadow--navigation-bar: var(--box-shadow--navigation-bar);
+
+  color--focus: var(--color--focus);
+  background-color--text-input: var(--background-color--text-input);
+  background-color--text-input--focus: var(--background-color--text-input--focus);
+  box-shadow--text-input: var(--box-shadow--text-input);
+
+  background-color--list: var(--background-color--list);
+  border-top--list-container: var(--border-top--list-container);
+  border-top--list: var(--border-top--list );
+  border-bottom--list: var(--border-bottom--list);
+  border-top--list-item--first: var(--border-top--list-item--first);
+  border-top--list-item: var(--border-top--list-item);
+  border-bottom--list-item: var(--border-bottom--list-item );
+  color--list-header: var(--color--list-header);
+  text-shadow--list-header: var(--text-shadow--list-header);
+  border-top--list-header: var(--border-top--list-header);
+  border-bottom--list-header: var(--border-bottom--list-header);
+  background-color--list-header: var(--background-color--list-header);
+
+  modal-bg-color: var(--modal-bg-color);
+  overlay__header-border: var(--overlay__header-border);
+
+  bar-bg-color: var(--bar-bg-color);
+  progress-bg-color: var(--progress-bg-color);
+
+  border--checkmark: var(--border--checkmark);
+
+  range-background: var(--range-background);
+  range__slider-border: var(--range__slider-border);
+  range__slider-background: var(--range__slider-background);
+  range__slider-bg-size: var(--range__slider-bg-size);
+  range__slider-box-shadow: var(--range__slider-box-shadow);
+
+  border--radio-button: var(--border--radio-button);
+  background--radio-button: var(--background--radio-button);
+  box-shadow--radio-button: var(--box-shadow--radio-button);
+
+  color--tab-bar--active: var(--color--tab-bar--active);
+  background-color--tab-bar--active: var(--background-color--tab-bar--active);
+  box-shadow--tab-bar--active: var(--box-shadow--tab-bar--active);
+
+  color--switch__label--left: var(--color--switch__label--left);
+  background-color--switch__label--left: var(--background-color--switch__label--left);
+  background-color--switch__label--right: var(--background-color--switch__label--right);
+}

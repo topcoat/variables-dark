@@ -1,15 +1,15 @@
 {
   "name": "topcoat-variables-dark",
-  "version": "0.1.5",
   "description": "Dark variables for theme.",
   "main": "index.html",
   "style": "src/variables-dark.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/topcoat/variables-dark.git"
+    "url": "https://github.com/topcoat/variables-dark.git"
   },
   "keywords": [
     "topcoat",
@@ -20,5 +20,31 @@
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/topcoat/variables-dark/issues"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "cz-customizable": "^4.0.0",
+    "resin": "^1.1.0",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   }
 }
