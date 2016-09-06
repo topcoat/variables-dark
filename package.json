@@ -14,10 +14,14 @@
   "keywords": [
     "topcoat",
     "variables",
-    "dark"
+    "dark",
+    "topcoat-variables"
   ],
-  "author": "@dam Kristofer Joseph",
-  "license": "Apache2",
+  "author": "Kristofer Joseph <kristoferjoseph@gmail.com> (http://kristoferjoseph.com/)",
+  "contributors": [
+    "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)"
+  ],
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/topcoat/topcoat/issues"
   },
