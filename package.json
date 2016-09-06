@@ -19,7 +19,7 @@
   "author": "@dam Kristofer Joseph",
   "license": "Apache2",
   "bugs": {
-    "url": "https://github.com/topcoat/variables-dark/issues"
+    "url": "https://github.com/topcoat/topcoat/issues"
   },
   "ava": {
     "require": [
